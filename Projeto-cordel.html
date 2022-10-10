@@ -50,11 +50,15 @@
 
        footer{
         text-align: center;
+        background-color: black;
+        color: white;
+        
+        margin: -15px 0px 0px 0px;
        }
 
        div.interno{
         color: white;
-        background-color: #191919;
+        background-color: #191919b0;
         width: 510px;
         padding: 15px 10px 20px 5px;
         margin-left: 50px;
@@ -69,12 +73,25 @@
         padding: 20px;
         width: 100%;
        }
+
+       div#um{
+        background-image: url("imagemjoaninha.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+       }
+
+       div#dois{
+        background-image: url("Imagemlivro.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
     </style>
 </head>
 <body>
     <header>
         <h1>Cordel Moderno</h1>
-        <p>Por <a href="">Milton Duarte</a></p>    
+        <p>Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Milton Duarte</a></p>    
     </header>
     <main>
         <div>
@@ -87,7 +104,7 @@
             <p>Vou dizer em poesia.</p>
         </div>
         <br>
-        <div class="externo">
+        <div class="externo" id="um">
             <div class="interno">
                 <p>Não é mais como era Antes</p>
                 <p>É tudo abreviado</p>
@@ -119,7 +136,7 @@
             <p>Decifre esse rabisco.</p>
         </div>
         <br>
-        <div class="externo">
+        <div class="externo" id="dois">
             <div class="interno">
                 <p>Tenho saudades de certas cartas</p>
                 <p>Escritas com a própria mão</p>
